@@ -1,26 +1,23 @@
+import Carousel from 'react-bootstrap/Carousel';
 const Main = () => {
     return <main>
-  <div id="carouselExample" className="carousel slide">
-  <div className="carousel-inner">
-    <div className="carousel-item active">
+    <Carousel>
+      <Carousel.Item>
       <img src="https://elcomercio.pe/resizer/MDKz8INVeIBwI_jkSE2EYsChg-Q=/980x528/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/NTKU3EROOZDVPCWTEQRRWFDV54.jpg" className="d-block w-100" alt="..."></img>
-    </div>
-    <div className="carousel-item">
+        <Carousel.Caption>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
       <img src="https://www.checkealo.pe/files/productos/6134/e08d57bdd004d0ac20406efd2e9ae02b.jpg" className="d-block w-100" alt="..."></img>
-    </div>
-    <div className="carousel-item">
-      <img src="https://entrenosotros.consum.es/public/Image/2022/5/makis.jpg" className="d-block w-100" alt="..."></img>
-    </div>
-  </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
-</div>
+        <Carousel.Caption>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src="https://entrenosotros.consum.es/public/Image/2022/5/makis.jpg" className="d-block w-100" alt="..."></img> 
+        <Carousel.Caption>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
 
  <h1>CONOCE SOBRE NOSOTROS</h1>
  <p> Ven a nuestra tienda especializada en la prepación de

@@ -1,14 +1,23 @@
+const feather = require('feather-icons');
+setTimeout(() => {
+    feather.replace();
+}, 1000);
+
 const Aside = () => {
     return <aside>
         
 <form>
  <h1>Iniciar sesión</h1>
 <div className="form-group">
- <label for="inputEmail">Email</label>
+ <label for="inputEmail"> <i data-feather="mail"></i>
+ Email
+ </label>
  <input type="email" className="form-control" id="inputEmail" placeholder="Email"/>
 </div>
 <div className="form-group">
- <label for="inputPassword">Contraseña</label>
+ <label for="inputPassword"> <i data-feather="lock"></i>
+ Contraseña
+ </label>
  <input type="password" className="form-control" id="inputPassword" placeholder="Password"/>
 </div>
 <div className="form-group">
