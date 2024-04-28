@@ -3,3 +3,7 @@
     object-fit: cover; 
     object-position: center;
 }
+.header-image {
+    width: 60px;
+    height: auto;
+}

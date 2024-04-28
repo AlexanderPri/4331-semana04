@@ -19,7 +19,7 @@ const Main = () => {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-
+    <br></br>
  <h1>CONOCE SOBRE NOSOTROS</h1>
  <p>¡Bienvenidos al paraíso del sushi! En nuestra tienda, cada bocado es una obra maestra de frescura y sabor. Sumérgete en la exquisita tradición culinaria japonesa mientras te deleitas con nuestra amplia variedad de rollos de sushi, nigiri y sashimi, preparados con los ingredientes más selectos y cuidadosamente elaborados por nuestros expertos chefs.</p>
 
