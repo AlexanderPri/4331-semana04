@@ -7,3 +7,33 @@
     width: 60px;
     height: auto;
 }
+.abajocreo{
+    text-align: center;
+    font-size: 12px;
+}
+body{
+    background-color: #D3D3D3;
+}
+.Saavedra{
+    text-decoration: none;
+    color: rgba(227, 228, 228, 0.652);
+}
+.Saavedra:hover{
+    color:gray;
+}
+.with-divider{
+    border-right: 1px solid rgba(164, 159, 159, 0.348);
+    padding-right: 15px;
+}
+.with-divider:last-child{
+    border-right: none;
+}
+.Mod{
+    color: rgba(198, 198, 198, 0.76); 
+}
+.Mod:hover{
+    color:gray;
+}
+.Mod2{
+    color: rgba(198, 198, 198, 0.76);
+}
