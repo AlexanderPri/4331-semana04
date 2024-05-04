@@ -8,7 +8,6 @@ import Main from "./main";
 import Aside from "./aside";
 import Footer from "./footer";
 
-
 const root = createRoot(document.getElementById("root"));
 root.render(
     <StrictMode>
