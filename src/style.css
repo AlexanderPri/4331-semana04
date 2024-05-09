@@ -37,3 +37,12 @@ body{
 .Mod2{
     color: rgba(198, 198, 198, 0.76);
 }
+.dark-transparent {
+    background-color: #000;
+    color: #fff; 
+    border-color: #000000;
+}
+.dark-transparent:hover{
+    background-color: black;
+    border-color: #ffffff
+}
