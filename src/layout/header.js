@@ -13,10 +13,11 @@ const Header = () => {
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav">
-        <a className="nav-link active" aria-current="page" href="#"><i data-feather="home"></i>Inicio</a>
-        <a className="nav-link" href="#"><i data-feather="book"></i>Carta</a>
-        <a className="nav-link" href="#"><i data-feather="dollar-sign"></i>Ofertas</a>
-        <a className="nav-link" href="#"><i data-feather="help-circle"></i>Ayuda</a>
+        <a className="nav-link active" aria-current="page" href="#"><i data-feather="home"></i> Inicio</a>
+        <a className="nav-link" href="#"><i data-feather="book"></i> Carta</a>
+        <a className="nav-link" href="#"><i data-feather="dollar-sign"></i> Ofertas</a>
+        <a className="nav-link" href="#"><i data-feather="calendar"></i> Reserva online</a>
+        <a className="nav-link" href="#"><i data-feather="help-circle"></i> Ayuda</a>
       </div>
     </div>
  </div>

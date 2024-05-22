@@ -33,6 +33,8 @@ const Main = () => {
                 })
             }
         </Carousel>
+        <br></br>
+        <a>SushiBar es una tienda especializada en ofrecer una amplia variedad de sushi fresco y delicioso, preparado por chefs expertos y entregado directamente a la puerta de tu casa. Nuestra plataforma está diseñada para proporcionar una experiencia de compra fácil, rápida y segura, asegurando que nuestros clientes disfruten de la mejor calidad de sushi sin tener que salir de casa.</a>
     </main >;
 }
 

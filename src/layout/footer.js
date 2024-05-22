@@ -32,7 +32,7 @@ const Footer = () => {
                 </div>
                 <section className='footer-bottom'>
                     <div className='container'>
-                        <p className='abajocreo Mod2'>Copyright © 2019 - 2024 Sushi.com | Todos los derechos reservados ha Alexander Prieto</p>
+                        <p className='abajocreo Mod2'>Copyright © 2019 - 2024 Sushi.com | Todos los derechos reservados - Alexander Prieto</p>
                     </div>
                 </section>
             </footer>
