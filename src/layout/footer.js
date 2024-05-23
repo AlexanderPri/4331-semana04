@@ -25,7 +25,7 @@ const Footer = () => {
                             <li className='font-weight-bold mb-2'><b>Encuentranos en</b></li>
                             <li className='font-weight-bold mb-2 Mod2'><i data-feather="map-pin"></i> Jr. Bolívar 957, Trujillo, Perú</li>
                             <li className='font-weight-bold mb-2 Mod2'><i data-feather="phone"></i> +51 955 109 474</li>
-                            <li className='font-weight-bold mb-2 Mod2'><i data-feather="instagram"></i> <a className="Mod" href="#">https://www.instagram.com/SushiBar/</a></li>
+                            <li className='font-weight-bold mb-2 Mod2'><i data-feather="instagram"></i> <a className="Mod" href="#">www.instagram.com/SushiBar/</a></li>
                             <li className='font-weight-bold mb-2 Mod2'><i data-feather="mail"></i> <a className="Mod" href="#">chunchunmaru1478@gmail.com</a></li>
                         </ul>
                     </nav>

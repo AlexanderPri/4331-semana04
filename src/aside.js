@@ -6,8 +6,8 @@ setTimeout(() => {
 const Aside = () => {
     return <aside>
         
-<form>
-    <h1><i data-feather="check-square"></i> Iniciar sesión</h1>
+<form className="text-white py-4 bg-dark custom">
+    <h1><i data-feather="check-square"></i> REGÍSTRATE</h1>
     <br></br>
         <div className="form-group">
             <label for="inputEmail"> <i data-feather="mail"></i> Email</label>
@@ -20,14 +20,14 @@ const Aside = () => {
 </div>
 <br></br>
 <div className="form-group">
-    <label for="inputPassword"> <i data-feather="more-horizontal"></i> Ingrese el código de verificación</label>
-<input type="password" className="form-control" id="inputPassword" placeholder="Código de 8 dígitos"/>
+    <label for="inputPassword"> <i data-feather="phone-call"></i> Número de teléfono</label>
+<input type="password" className="form-control" id="inputPassword" placeholder="Teléfono"/>
 </div>
 <div className="form-group">
-    <label className="form-check-label"><input type="checkbox"/> Mantener sesión iniciada</label>
+    <label className="form-check-label"> ¿Ya tienes una cuenta? <a href="/login">Iniciar sesión</a></label>
 </div>
 <br></br>
-    <button type="submit" className="btn btn-primary">Iniciar sesion</button>
+    <button type="submit" className="btn btn-primary">Registrarme</button>
 </form>
     </aside>;
 }
